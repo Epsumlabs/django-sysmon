@@ -38,7 +38,7 @@ Open your project’s `urls.py` and include the `sysmon` urls.
 
 ```python
 urlpatterns = [...
-    path('pydash/', include('pydash.urls'))
+    path('sysmon/', include('sysmon.urls'))
 ]
 
 ```
